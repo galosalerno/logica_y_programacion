@@ -120,7 +120,7 @@ recomendar_libro(EstudianteID) :-
     mas_leido(Recomendaciones, LibroMasLeido),
     libro(LibroMasLeido, _, NombreLibro, _),
     write('El libro por el que te recomiendo seguir: '), nl,
-    write(NombreLibro), nl.
+    write(NombreLibro).
 
 % Menú
 menu :- write('\n *** Recomendador de Libros de Biblioteca *** \n'), nl,
